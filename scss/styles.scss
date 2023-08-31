@@ -1,1 +1,14 @@
+// required to get $orange variable
+@import "../dist/bootstrap-5.3.1/scss/functions"; 
+@import "../dist/bootstrap-5.3.1/scss/variables";
+
+// Set color scheme here.
+$primary: orange; // set the $primary variable
+
+// merge with existing $theme-colors map
+$theme-colors: map-merge($theme-colors, (
+  "primary": $primary
+));
+
+// set changes
 @import "../dist/bootstrap-5.3.1/scss/bootstrap";
