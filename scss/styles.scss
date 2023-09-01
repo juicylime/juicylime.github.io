@@ -17,3 +17,18 @@ $theme-colors: map-merge($theme-colors, (
 html {
   caret-color: transparent;
 }
+
+.nav-link {
+  color: grey;
+}
+
+.nav-pills {
+  .nav-link.active {
+      color: black;
+      background-color: white;
+  }
+}
+
+.nav {
+  --bs-nav-link-hover-color: black;
+}
