@@ -11850,5 +11850,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html {
+  caret-color: transparent;
+}
 
 /*# sourceMappingURL=styles.css.map */

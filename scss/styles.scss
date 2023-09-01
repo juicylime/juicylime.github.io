@@ -12,3 +12,8 @@ $theme-colors: map-merge($theme-colors, (
 
 // set changes
 @import "../dist/bootstrap-5.3.1/scss/bootstrap";
+
+
+html {
+  caret-color: transparent;
+}
