@@ -11867,4 +11867,30 @@ html {
   --bs-nav-link-hover-color: black;
 }
 
+.banner_image {
+  background-image: url("../images/banner4.jpg");
+  background-size: cover;
+  height: 60vh;
+}
+@media screen and (max-width: 768px) {
+  .banner_image {
+    flex: 1;
+  }
+}
+
+.banner_image * {
+  color: lightgrey;
+}
+.banner_image h1, .banner_image .h1 {
+  color: lightgrey;
+}
+
+@media screen and (max-width: 768px) {
+  .header_hero_banner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

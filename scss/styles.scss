@@ -32,3 +32,30 @@ html {
 .nav {
   --bs-nav-link-hover-color: black;
 }
+
+.banner_image {
+  background-image: url('../images/banner4.jpg');
+  background-size: cover;
+  height: 60vh;
+    @media screen and (max-width: 768px) {
+      flex:1
+    }
+}
+
+.banner_image {
+  * {
+    color: lightgrey;
+  }
+  
+  h1 {
+    color: lightgrey;
+  }
+}
+
+.header_hero_banner {
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+}
