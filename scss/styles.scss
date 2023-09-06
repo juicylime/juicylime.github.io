@@ -3,7 +3,7 @@
 @import "../dist/bootstrap-5.3.1/scss/variables";
 
 // Set color scheme here.
-$primary: orange; // set the $primary variable
+$primary: #F36527; // set the $primary variable
 
 // merge with existing $theme-colors map
 $theme-colors: map-merge($theme-colors, (
@@ -58,4 +58,16 @@ html {
     flex-direction: column;
     height: 100vh;
   }
+}
+
+.amans_card {
+  background-image: url('../images/Survival_of_the_Idiots_082.png');
+  background-size: cover;
+  color: black;
+}
+
+.ankits_card {
+  background-image: url('../images/Pepe.jpg');
+  background-size: cover;
+  color: black !important;
 }
