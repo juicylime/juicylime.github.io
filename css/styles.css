@@ -11918,4 +11918,12 @@ html {
   opacity: 1;
 }
 
+.about_banner {
+  background-image: url("../images/banner4.jpg");
+}
+
+.contact_banner {
+  background-image: url("../images/banner4.jpg");
+}
+
 /*# sourceMappingURL=styles.css.map */
