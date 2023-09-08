@@ -71,3 +71,23 @@ html {
   background-size: cover;
   color: black !important;
 }
+
+
+// Services Page
+
+.service_banner {
+  background-image: url('../images/banner4.jpg');
+}
+
+// .feature_hero {
+//   height: 100vh;
+// }
+
+.feature_hero  {
+  opacity: 0;
+  transition: opacity 3s; 
+}
+
+.feature_hero.in-viewport {
+  opacity: 1;
+}
