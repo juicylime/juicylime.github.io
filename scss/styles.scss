@@ -60,17 +60,11 @@ html {
   }
 }
 
-.amans_card {
-  background-image: url('../images/Survival_of_the_Idiots_082.png');
-  background-size: cover;
-  color: black;
+.card-img-top {
+  height: 300px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
-.ankits_card {
-  background-image: url('../images/Pepe.jpg');
-  background-size: cover;
-  color: black !important;
-}
 
 
 // Services Page
@@ -102,4 +96,13 @@ html {
 
 .contact_banner {
   background-image: url('../images/banner4.jpg');
+}
+
+.card {
+  border: none
+}
+
+
+.card-img-top {
+  border-radius: 5px;
 }
