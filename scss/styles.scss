@@ -62,7 +62,9 @@ html {
 
 .card-img-top {
   height: 300px; /* Adjust the height as needed */
+  width: 300px;
   object-fit: cover; /* Maintain aspect ratio and cover the container */
+  margin: 0 auto; /* Horizontally center the image */
 }
 
 
