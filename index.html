@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\custom.css">
     <link rel="stylesheet" href="css\styles.css">
     <script src="dist\-5.3.1\dist\js\.min.js"></script>
 </head>
@@ -18,14 +19,14 @@
     <div class="header_hero_banner">
         <!-- Header Navbar -->
 
-        <div class="container-fluid border-bottom">
+        <div class="container-fluid" style="position: absolute;">
             <div class="container">
                 <header class="d-flex flex-wrap justify-content-center py-3">
                     <a class="d-flex align-items-center mb-3 mb-md-0 me-lg-auto link-body-emphasis text-decoration-none"
                         href="./index.html">
-                        <img class="bi me-2"
+                        <img class="bi me-2 "
                             src="images\stone-summit-software-low-resolution-logo-color-on-transparent-background.png"
-                            alt="" width="300">
+                            alt="" width="400">
                     </a>
 
                     <ul class="nav nav-pills">
@@ -47,14 +48,14 @@
         </div>
 
         <!-- Hero Banner -->
-        <div class="container-fluid banner_image py-5">
-            <div class="container col-xxl-8 px-4 py-5">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="container-fluid service_banner py-5" style="background-attachment: fixed;">
+            <div class="container col-xxl-8 px-4">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5" style="margin-top: 5.5rem">
                     <!-- Spacer -->
-                    <div class="col-10 col-sm-8 col-lg-6"></div>
+                    <div class="spacer col-10 col-sm-8 col-lg-6"></div>
 
-                    <div class="col-lg-6 py-5 py-md-0">
-                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 banner_bold_text">
+                    <div class="col-lg-6 py-5 mt-0 py-md-0">
+                        <h1 class="display-2 fw-bold text-body-emphasis lh-1 mb-3 banner_bold_text banner-title">
                             Careful Planning
                             <br>
                             Solid Work
@@ -67,7 +68,7 @@
         </div>
     </div>
 
-
+<div class="gradient-div">
     <!-- Feature Services -->
     <div class="container px-4 py-5" id="featured-3">
         <h2 class="pb-2 border-bottom">What We Do</h2>
@@ -130,7 +131,7 @@
     <!-- Jumbotron -->
 
     <div class="my-5">
-        <div class="p-5 text-center bg-body-tertiary">
+        <div class="p-5 text-center">
             <div class="container py-5">
                 <h1 class="text-body-emphasis">Let us help you elevate your business.</h1>
                 <p class="col-lg-8 mx-auto lead">
@@ -200,6 +201,7 @@
 
         </div>
     </div>
+</div>
 
     <!-- Footer -->
     <div class="container-fluid border-top">
@@ -221,6 +223,7 @@
             </footer>
         </div>
     </div>
+
 </body>
 
 </html>

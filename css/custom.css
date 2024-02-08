@@ -1,0 +1,172 @@
+
+.banner-title {
+    color: #f36527 !important;
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke: .5px #cfcfcf;
+}
+.about_decoration {
+    margin-bottom:1rem;
+    width: 3rem;
+    height: .5rem;
+    background-color: #f36527;
+}
+.about_column_custom {
+    height: 17rem;
+    width: 10rem;
+    background-color: #f0f0f0;
+    flex: 0 0 auto;
+}
+.custom-column {
+    height: 15rem; /* Set the fixed height for each column */
+    padding-top: 10rem;
+}
+.d-text-behind {
+    position: absolute;
+    z-index: 1; /* Place the text behind the div */
+    width: auto;
+    height: auto;
+    opacity: 0.15; /* Adjust the opacity as needed */
+    font-size: 110px;
+    transform: translateY(-125px)
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 2s;
+}
+.fade-in.active {
+    opacity: 1;
+}
+.project-on-mind-left {
+    height: 35rem;
+    background-color: #f8c49c;
+}
+.project-on-mind-right {
+    height: 35rem;
+}
+.connect-with-us-btn {
+    margin-bottom: 1rem;
+    padding: .3rem;
+    font-weight: bold;
+    background-color: #f8c49c;
+}
+.connect-with-us-btn:hover {
+    background-color: #ffd8ad;
+}
+.project-on-mind-p {
+    height: 15.5rem;
+    font-size: 20px;
+    font-family: Arial;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.gradient-div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #fffbf5, #fcc898);
+    /* You can customize the gradient colors here */
+}
+.bottom-blurb-left{
+    background-color: #302920;
+    height: 17rem;
+    margin-bottom:11rem;
+
+}
+.bottom-blurb-right{
+    background-color: #302920;
+    height: 17rem;
+    margin-bottom:11rem;
+}
+.bottom-blurb-left-p {
+    font-family: 'Times New Roman';
+    color: white;
+    font-weight: bold;
+    margin-top: 2.5rem;
+    padding-right: 3.5rem;
+    padding-left: 1rem;
+}
+.bottom-blurb-right-p {
+    font-size: 22px;
+    font-family: Cambria;
+    color: white;
+    margin-top: 2.5rem;
+    padding-left: 3.5rem;
+    padding-right: 1rem;
+}
+.brown-div {
+    background-color: #302920;
+    height: 45rem;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0; left: 0
+}
+.email-container {
+    border-style:solid;
+    border-width: thin;
+    height:35rem;
+    background-color: #fdddb4;
+    transform: translateY(-85px);
+}
+
+@media (max-width: 992px) {
+
+    .spacer {
+        display: none;
+    }
+    .project-on-mind-left {
+        height: auto;
+    }
+
+    .project-on-mind-right {
+        height: 25rem;
+    }
+    .project-on-mind-p{
+        height:5rem
+    }
+    .connect-with-us-btn {
+        margin-top: .5rem;
+
+    }
+    .bottom-blurb-left-p {
+        padding-right: 1rem;
+    }
+    .bottom-blurb-right-p {
+        padding-left: 1rem;
+    }
+}
+@media (max-width: 766px) {
+    .bottom-blurb-left-p{
+        padding-right: 0;
+        margin: 1rem;
+        padding-left: 0;
+    }
+    .bottom-blurb-right-p{
+        padding-left: 0;
+        margin: 1rem;
+        padding-right: 0;
+    }
+    .bottom-blurb-left{
+        margin-top: 1rem;
+        margin-bottom: 0;
+        height: auto;
+        padding-left: 0;
+    }
+    .bottom-blurb-right{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        height: auto;
+        padding-right: 0;
+    }
+    .email-container {
+        height: 50rem
+    }
+}
