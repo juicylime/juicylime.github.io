@@ -116,6 +116,16 @@
     background-color: #fdddb4;
     transform: translateY(-85px);
 }
+.email-address-container {
+    border-style:solid;
+    border-width: thin;
+    height:13rem;
+    background-color: #fdddb4;
+    transform: translateY(-85px);
+}
+.email-address-font {
+    font-size: 2rem;
+}
 
 @media (max-width: 992px) {
 
@@ -168,5 +178,8 @@
     }
     .email-container {
         height: 50rem
+    }
+    .email-address-font {
+        font-size: 1.5rem;
     }
 }
