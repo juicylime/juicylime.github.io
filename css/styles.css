@@ -2960,15 +2960,15 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #000;
-  --bs-btn-bg: #F36527;
-  --bs-btn-border-color: #F36527;
+  --bs-btn-bg: #f8c49c;
+  --bs-btn-border-color: black;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #f57c47;
-  --bs-btn-hover-border-color: #f4743d;
+  --bs-btn-hover-border-color: black;
   --bs-btn-focus-shadow-rgb: 207, 86, 33;
   --bs-btn-active-color: #000;
   --bs-btn-active-bg: #f58452;
-  --bs-btn-active-border-color: #f4743d;
+  --bs-btn-active-border-color: black;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
   --bs-btn-disabled-bg: #F36527;
@@ -4299,7 +4299,7 @@ textarea.form-control-lg {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: var(--bs-body-bg);
+  --bs-card-bg:;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
@@ -11855,7 +11855,8 @@ html {
 }
 
 .nav-link {
-  color: grey;
+  color: black;
+  font-size: 20px
 }
 
 .nav-pills .nav-link.active {
@@ -11870,7 +11871,7 @@ html {
 .banner_image {
   background-image: url("../images/banner4.jpg");
   background-size: cover;
-  height: 60vh;
+  height: 30rem;
 }
 @media screen and (max-width: 768px) {
   .banner_image {
@@ -11902,8 +11903,31 @@ html {
 
 .service_banner {
   background-image: url("../images/banner4.jpg");
+  height: 37rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  overflow:hidden;
+  background-position: top;
+  background-repeat: no-repeat;
 }
-
+@media screen and (max-width: 1650px) {
+  .service_banner {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (max-height: 700px) {
+  .service_banner {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
 .feature_hero {
   opacity: 0;
   transition: opacity 3s;

@@ -19,7 +19,7 @@ html {
 }
 
 .nav-link {
-  color: grey;
+  color: black;
 }
 
 .nav-pills {
@@ -29,6 +29,7 @@ html {
   }
 }
 
+
 .nav {
   --bs-nav-link-hover-color: black;
 }
@@ -36,7 +37,7 @@ html {
 .banner_image {
   background-image: url('../images/banner4.jpg');
   background-size: cover;
-  height: 60vh;
+  height: 30rem;
     @media screen and (max-width: 768px) {
       flex:1
     }
@@ -71,9 +72,9 @@ html {
 
 // Services Page
 
-.service_banner {
-  background-image: url('../images/banner4.jpg');
-}
+//.service_banner {
+//  background-image: url('../images/banner4.jpg');
+//}
 
 // .feature_hero {
 //   height: 100vh;
